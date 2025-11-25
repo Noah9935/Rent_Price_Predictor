@@ -1,0 +1,76 @@
+Plan für Immobilien preis Fairness Rechner
+
+Wohnungsmerkmale:
+
+1. Wohnfläche
+2. Zimmer
+3. Baujahr
+4. Zustand
+5. Einbauküche
+6. Balkon
+7. Terasse
+8. Aufzug
+9. Garten
+10. Keller
+11. Etage
+12. Kalt
+13. Warmmiete
+14. Energieeffizienzklasse
+
+
+Seiten:
+https://www.immowelt.de/
+https://www.immobilienscout24.de/
+https://www.immonet.de/
+
+
+Regionale Merkmale:
+
+1. Bundesland
+2. Stadt
+3. Stadtteil
+4. Kaufkraftindex
+5. Kriminalitätsrate
+6. Arebitslosenquote
+7. Nähe zum ÖPNV / Autobahn / Flughafen
+8. Bevölerungswachstum
+9. Durchschnittsalter
+10. Leerstandsquote
+
+https://www.destatis.de/DE/Home/_inhalt.html
+
+
+Merkmale für Lebensqualität:
+
+1. Nähe der Versorgung (Artzt, Supermärkte)
+2. Bildunsangebote (Schulen, Unis)
+3. Freizeit (Parks, Gastros, Kulturshit)
+4. Luftqualität
+5. Lautstärkeindex
+
+EXTRAS:
+Eignung anzeigen (Fmailien, Studenten, Seniore, etc.)
+Bewertung von Stadtteilen (Google reviews, Reddit, blogs)
+
+Wohnfläche                float64
+Zimmeranzahl              float64
+Baujahr                    object
+Zustand                    object
+Küche                        bool
+Balkon / Terrasse            bool
+Aufzug                       bool
+Garten                       bool
+Keller                       bool
+Etage                     float64
+Kaltmiete                  object
+Warmmiete                 float64
+Energieeffizienzklasse     object
+Bundesland                 object
+Stadt                      object
+Stadtteil                  object
+PLZ                       float64
+Offer_id                    int64
+Arbeitslosenquote in %    float64
+Kaufkraft p. E. in €      float64
+ÖPNV qualität             float64
+Wohnungsleerstands        float64
