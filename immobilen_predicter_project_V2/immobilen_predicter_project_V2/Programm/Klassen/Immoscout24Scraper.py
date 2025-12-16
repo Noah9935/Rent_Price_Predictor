@@ -494,7 +494,7 @@ if __name__ == "__main__":
 
     try:
         if __name__ == "__main__":
-            scraper.scrape_multiple_offers(add_number_of_offers=50000, dateiname='immoscout_daten_2025_05.xlsx', format='xlsx', path='C:/temp/____Noah_Ordner/1py_Programme/Programme/Machine_Learning/Code/immobilen_predicter_project_V2/Programm/Tabellen')
+            scraper.scrape_multiple_offers(add_number_of_offers=110000, dateiname='immoscout_daten_2025_12.xlsx', format='xlsx', path='../Tabellen')
 
     finally:
         
