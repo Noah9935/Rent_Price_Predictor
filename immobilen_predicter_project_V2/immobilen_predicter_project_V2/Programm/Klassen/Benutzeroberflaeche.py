@@ -98,7 +98,7 @@ class GUI_Immobilien:
             )
             messagebox.showinfo("Daten des Exposés", summary)
 
-            self.vorhersage(offer_df, 3, zielspalte='Kaltmiete', path='C:/temp/____Noah_Ordner/1py_Programme/Programme/Machine_Learning/Code/immobilen_predicter_project_V2/Programm/Tabellen/')
+            self.vorhersage(offer_df, 3, zielspalte='Kaltmiete', path='../Tabellen/')
 
         except Exception as e:
             messagebox.showerror("Extraktionsfehler", str(e))
